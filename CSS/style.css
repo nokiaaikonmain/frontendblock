@@ -2,6 +2,21 @@ body {
 	font-family: "Inter";
 }
 
+.dark {
+	background-color: #232326;
+	color: #f3f2f0;
+}
+
+.wrapper {
+	max-width: 1140px;
+	/*ширина по фотке*/
+	margin: 0 auto;
+	padding-left: 15px;
+	/* элемент адаптива. При сжатии - контент не прилипнет к картинке*/
+	padding-right: 15px;
+	/* элемент адаптива. При сжатии - контент не прилипнет к картинке*/
+}
+
 .name {
 	font-size: 28px;
 }
@@ -9,4 +24,24 @@ body {
 .title-h1 {
 	font-size: 74px;
 	text-transform: uppercase;
+}
+
+.photo {
+	margin-bottom: 120px;
+	width: 100%;
+	/*img - строчный, нет по умолчанию 100%*/
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #f3f2f0;
+	font-size: 14px;
+}
+
+.nav-link:hover {
+	color: #D40000;
+}
+
+.nav-item:hover {
+	color: #D40000;
 }
