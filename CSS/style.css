@@ -7,6 +7,20 @@ body {
 	color: #f3f2f0;
 }
 
+.dark .nav-link {
+	color: #f3f2f0;
+}
+
+
+.light {
+	background-color: #F3F2F0;
+	color: #010101;
+}
+
+.light .nav-link {
+	color: #010101;
+}
+
 .wrapper {
 	max-width: 1140px;
 	/*ширина по фотке*/
@@ -32,9 +46,37 @@ body {
 	/*img - строчный, нет по умолчанию 100%*/
 }
 
+header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom: 60px;
+
+}
+
+.nav {
+	list-style-type: none;
+	/*Убираем буллеты*/
+	padding-left: 0;
+	margin: 0;
+	display: flex;
+}
+
+.nav-item {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.nav-item:first-child {
+	padding-left: 0;
+}
+
+.nav-item:last-child {
+	padding-right: 0;
+}
+
 .nav-link {
 	text-decoration: none;
-	color: #f3f2f0;
 	font-size: 14px;
 }
 
